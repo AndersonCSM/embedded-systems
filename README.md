@@ -1,4 +1,26 @@
-Este repositório é voltado para o estudo e implementação de sistemas embarcados usando o Raspberry Pi Pico com a linguagem Python por meio do MicroPython.
+# English
+## About
+Repository aimed at working on the concepts of embedded systems.
+
+## Technologies
+- Raspberry pi pico;
+- Python3 and MicroPython.
+
+## Contact
+- Social networks:https://github.com/AndersonCSM
+- Contact email: andersoncarlos799@gmail.com
+
 ---
-This repository is focused on the study and implementation of embedded systems using the Raspberry Pi Pico with the Python language through MicroPython.
+# Português Brasil
+## Sobre
+Repositório voltado a trabalhar os conceitos de sistemas embarcados.
+
+## Tecnologias
+- Raspberry pi pico;
+- Python3 and MicroPython.
+
+## Contato
+- Redes sociais:https://github.com/AndersonCSM
+- email de contato: andersoncarlos799@gmail.com
+
 ---
