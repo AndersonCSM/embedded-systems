@@ -1,4 +1,3 @@
-# English
 ## About
 Repository aimed at working on the concepts of embedded systems.
 
@@ -11,7 +10,6 @@ Repository aimed at working on the concepts of embedded systems.
 - Contact email: andersoncarlos799@gmail.com
 
 ---
-# Português Brasil
 ## Sobre
 Repositório voltado a trabalhar os conceitos de sistemas embarcados.
 
