@@ -6,7 +6,7 @@ Repository aimed at working on the concepts of embedded systems.
 - Python3 and MicroPython.
 
 ## Contact
-- Social networks:https://github.com/AndersonCSM
+- Social networks: https://github.com/AndersonCSM
 - Contact email: andersoncarlos799@gmail.com
 
 ---
@@ -18,7 +18,7 @@ Repositório voltado a trabalhar os conceitos de sistemas embarcados.
 - Python3 and MicroPython.
 
 ## Contato
-- Redes sociais:https://github.com/AndersonCSM
+- Redes sociais: https://github.com/AndersonCSM
 - email de contato: andersoncarlos799@gmail.com
 
 ---
