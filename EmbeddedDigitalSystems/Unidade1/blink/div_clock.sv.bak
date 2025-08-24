@@ -1,0 +1,5 @@
+module div_clock()
+ integer PERIOD = 50_000_000  // valor padrão
+
+
+endmodule

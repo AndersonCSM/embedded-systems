@@ -1,0 +1,11 @@
+Fitter Status : Successful - Sun Jun 29 14:32:46 2025
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Revision Name : QuadroAlerta
+Top-level Entity Name : QuadroAlerta
+Family : MAX II
+Device : EPM240T100C5
+Timing Models : Final
+Total logic elements : 70 / 240 ( 29 % )
+Total pins : 8 / 80 ( 10 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

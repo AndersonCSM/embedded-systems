@@ -1,0 +1,7 @@
+
+State Machine - |projeto|maquina_refrigerante:mq1|controller:ctrl|estado_atual
+Name estado_atual.DISP estado_atual.COUNT estado_atual.WAIT estado_atual.INICIAL 
+estado_atual.INICIAL 0 0 0 0 
+estado_atual.WAIT 0 0 1 1 
+estado_atual.COUNT 0 1 0 1 
+estado_atual.DISP 1 0 0 1 

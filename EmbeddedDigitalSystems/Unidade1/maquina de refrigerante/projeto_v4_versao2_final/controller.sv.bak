@@ -1,0 +1,54 @@
+module controller(
+    input logic c, tm, clk,
+    output logic d, tw, tc
+);
+
+typedef enum logic [1:0] {
+        INICIAL = 2'b00,
+        WAIT    = 2'b01,
+        COUNT   = 2'b10,
+        DISP    = 2'b11
+    } state_t;
+
+    state_t estado_atual = INICIAL;
+    state_t estado_proximo;
+
+    // Lógica de transição de estados
+    always_comb begin
+        estado_proximo = estado_atual;
+        case (estado_atual)
+            INICIAL:  estado_proximo = WAIT;
+            WAIT:     if (tm) estado_proximo = DISP;
+                      else if (c) estado_proximo = COUNT;
+                      else estado_proximo = WAIT;
+            COUNT:    estado_proximo = WAIT;
+            DISP:     estado_proximo = INICIAL;
+        endcase
+    end
+
+    // Lógica de saída - CORRIGIDA
+    always_comb begin
+        d  = 0;
+        tw = 0;
+        tc = 0;
+        case (estado_atual)
+            INICIAL: begin
+                tc = 1; // Clear apenas quando está no INICIAL
+            end
+            WAIT: begin
+                // Não faz nada, apenas espera
+            end
+            COUNT: begin
+                tw = 1; // Habilita soma
+            end
+            DISP: begin
+                d = 1; // Acende LED
+            end
+        endcase
+    end
+
+    always_ff @(posedge clk) begin
+        estado_atual <= estado_proximo;
+    end
+
+endmodule

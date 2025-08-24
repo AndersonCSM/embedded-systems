@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at controller.sv(15): always construct contains both blocking and non-blocking assignments File: C:/Users/Windows10/Desktop/github-projects/embedded-digital-systems/unidade-1/P1QuadroAlerta/controller.sv Line: 15

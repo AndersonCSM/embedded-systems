@@ -1,0 +1,49 @@
+module controller(
+input logic b1, b2, al, clk,
+output logic l, add, clr  
+);
+
+typedef enum logic {
+    INI = 2'b00,
+    W = 2'b01,
+    I = 2'b10,
+    E = 2'b11
+  } state;
+
+state atual = INI;
+
+always @(posedge clk)begin
+    add <= 1'b0;
+    l <= 1'b0;
+    clr <= 1'b0;
+    case (atual)
+        INI : begin
+            atual <= W;
+            clr <= 1'b1;
+        end
+                
+        W :
+        begin
+            if (al) begin
+                atual <= E;         
+            end
+            else if (b1) begin
+                atual <= I;
+            end
+        end 
+        I :
+        begin
+            atual <= W;
+            add <= 1'b1;
+        end    
+        E :
+        begin
+            l <= 1'b1;
+            if (b2) begin
+                atual <= INI;
+            end
+        end  
+    endcase
+end
+
+endmodule

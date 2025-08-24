@@ -1,0 +1,29 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'clk'
+Slack : -7.626
+TNS   : -194.478
+
+Type  : Setup 'maquina_refrigerante:mq1|div_clock:div_inst|clk_out'
+Slack : -4.464
+TNS   : -40.116
+
+Type  : Hold 'clk'
+Slack : -1.816
+TNS   : -1.816
+
+Type  : Hold 'maquina_refrigerante:mq1|div_clock:div_inst|clk_out'
+Slack : 1.345
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'clk'
+Slack : -2.289
+TNS   : -2.289
+
+Type  : Minimum Pulse Width 'maquina_refrigerante:mq1|div_clock:div_inst|clk_out'
+Slack : 0.234
+TNS   : 0.000
+
+------------------------------------------------------------

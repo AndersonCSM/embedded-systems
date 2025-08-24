@@ -1,0 +1,11 @@
+Fitter Status : Successful - Fri May 23 13:36:52 2025
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Revision Name : blink
+Top-level Entity Name : blink
+Family : MAX II
+Device : EPM240T100C5
+Timing Models : Final
+Total logic elements : 55 / 240 ( 23 % )
+Total pins : 2 / 80 ( 3 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

@@ -1,0 +1,57 @@
+C:/Users/Windows10/Desktop/projeto_v3/div_clock.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/projeto_v3/div_clock.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module div_clock
+
+Top level modules:
+	div_clock
+
+} {} {}} C:/Users/Windows10/Desktop/projeto_v3/projeto.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/projeto_v3/projeto.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module projeto
+
+Top level modules:
+	projeto
+
+} {} {}} C:/Users/Windows10/Desktop/projeto_v3/datapath.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/projeto_v3/datapath.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} C:/Users/Windows10/Desktop/projeto_v3/projeto_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/projeto_v3/projeto_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module projeto_tb
+
+Top level modules:
+	projeto_tb
+
+} {} {}} C:/Users/Windows10/Desktop/projeto_v3/controller.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/projeto_v3/controller.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} C:/Users/Windows10/Desktop/projeto_v3/comparator.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/projeto_v3/comparator.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module comparator
+
+Top level modules:
+	comparator
+
+} {} {}} C:/Users/Windows10/Desktop/projeto_v3/maquina_refrigerante.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/projeto_v3/maquina_refrigerante.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module maquina_refrigerante
+
+Top level modules:
+	maquina_refrigerante
+
+} {} {}} C:/Users/Windows10/Desktop/projeto_v3/somador.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/projeto_v3/somador.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module somador
+
+Top level modules:
+	somador
+
+} {} {}}

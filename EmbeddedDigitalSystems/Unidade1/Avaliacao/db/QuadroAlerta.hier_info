@@ -1,0 +1,113 @@
+|QuadroAlerta
+b1 => b1.IN1
+b2 => b2.IN1
+clk => clk.IN1
+l << controller:ctrl.l
+l_n1 << controller:ctrl.l_n1
+l_n2 << controller:ctrl.l_n2
+l_n3 << controller:ctrl.l_n3
+l_n4 << controller:ctrl.l_n4
+
+
+|QuadroAlerta|div_clock:clk_low
+clk => clk_out~reg0.CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+clk => counter[8].CLK
+clk => counter[9].CLK
+clk => counter[10].CLK
+clk => counter[11].CLK
+clk => counter[12].CLK
+clk => counter[13].CLK
+clk => counter[14].CLK
+clk => counter[15].CLK
+clk => counter[16].CLK
+clk => counter[17].CLK
+clk => counter[18].CLK
+clk => counter[19].CLK
+clk => counter[20].CLK
+clk => counter[21].CLK
+clk => counter[22].CLK
+clk => counter[23].CLK
+clk => counter[24].CLK
+clk => counter[25].CLK
+clk_out <= clk_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|QuadroAlerta|deboucing:dbc1
+pb => always0.IN1
+pb => debounced_state.DATAB
+clk => debounced_state.CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => last_debounced_state.CLK
+pb_out <= pb_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|QuadroAlerta|deboucing:dbc2
+pb => always0.IN1
+pb => debounced_state.DATAB
+clk => debounced_state.CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => last_debounced_state.CLK
+pb_out <= pb_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|QuadroAlerta|datapath:dt
+add => c.OUTPUTSELECT
+add => c.OUTPUTSELECT
+clr => c.OUTPUTSELECT
+clr => c.OUTPUTSELECT
+clk => c[0].CLK
+clk => c[1].CLK
+al <= comparator:comp.eq
+
+
+|QuadroAlerta|datapath:dt|comparator:comp
+a[0] => Equal0.IN1
+a[0] => LessThan0.IN2
+a[0] => LessThan1.IN2
+a[1] => Equal0.IN0
+a[1] => LessThan0.IN1
+a[1] => LessThan1.IN1
+b[0] => Equal0.IN3
+b[0] => LessThan0.IN4
+b[0] => LessThan1.IN4
+b[1] => Equal0.IN2
+b[1] => LessThan0.IN3
+b[1] => LessThan1.IN3
+eq <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+gt <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+lt <= LessThan1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|QuadroAlerta|controller:ctrl
+b1 => proximo_estado.OUTPUTSELECT
+b1 => proximo_estado.OUTPUTSELECT
+b1 => proximo_estado.OUTPUTSELECT
+b1 => proximo_estado.OUTPUTSELECT
+b2 => proximo_estado.OUTPUTSELECT
+b2 => proximo_estado.OUTPUTSELECT
+b2 => proximo_estado.OUTPUTSELECT
+b2 => proximo_estado.OUTPUTSELECT
+al => proximo_estado.OUTPUTSELECT
+al => proximo_estado.OUTPUTSELECT
+al => proximo_estado.OUTPUTSELECT
+al => proximo_estado.OUTPUTSELECT
+clk => atual~1.DATAIN
+l <= l.DB_MAX_OUTPUT_PORT_TYPE
+add <= add.DB_MAX_OUTPUT_PORT_TYPE
+clr <= clr.DB_MAX_OUTPUT_PORT_TYPE
+l_n1 <= clr.DB_MAX_OUTPUT_PORT_TYPE
+l_n2 <= l_n2.DB_MAX_OUTPUT_PORT_TYPE
+l_n3 <= add.DB_MAX_OUTPUT_PORT_TYPE
+l_n4 <= l.DB_MAX_OUTPUT_PORT_TYPE
+
+

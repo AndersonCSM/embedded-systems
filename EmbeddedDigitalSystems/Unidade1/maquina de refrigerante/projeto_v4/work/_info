@@ -1,0 +1,202 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Windows10/Desktop/projeto
+vcomparator
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1749134787
+!i10b 1
+!s100 foLfL5B=f[bXkHGIElz>m1
+I:1cEQ1Ihd?M[Tz]8^cCQl3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 comparator_sv_unit
+S1
+Z3 dC:/Users/Windows10/Desktop/projeto_v3
+w1749134753
+8C:/Users/Windows10/Desktop/projeto_v3/comparator.sv
+FC:/Users/Windows10/Desktop/projeto_v3/comparator.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1749134787.000000
+!s107 C:/Users/Windows10/Desktop/projeto_v3/comparator.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/projeto_v3/comparator.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+vcontroller
+R0
+R1
+!i10b 1
+!s100 zdjlfkLXBZb2ZCbnK^6<n3
+ILj=OYGZVUfU0]Gd_KhQ9W2
+R2
+!s105 controller_sv_unit
+S1
+R3
+w1749134756
+8C:/Users/Windows10/Desktop/projeto_v3/controller.sv
+FC:/Users/Windows10/Desktop/projeto_v3/controller.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Windows10/Desktop/projeto_v3/controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/projeto_v3/controller.sv|
+!i113 1
+R6
+R7
+vdatapath
+R0
+R1
+!i10b 1
+!s100 nke]0TmAC]W8IEcW;S@cc3
+ILAAbFGg:m0G9FZ>3GNFi53
+R2
+!s105 datapath_sv_unit
+S1
+R3
+w1749134759
+8C:/Users/Windows10/Desktop/projeto_v3/datapath.sv
+FC:/Users/Windows10/Desktop/projeto_v3/datapath.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Windows10/Desktop/projeto_v3/datapath.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/projeto_v3/datapath.sv|
+!i113 1
+R6
+R7
+vdiv_clock
+R0
+R1
+!i10b 1
+!s100 XngamTRnJ:HmnY9ZRhfk`3
+IjfE<FPEn5UR^:iV?RPl6Z1
+R2
+!s105 div_clock_sv_unit
+S1
+R3
+w1749134762
+8C:/Users/Windows10/Desktop/projeto_v3/div_clock.sv
+FC:/Users/Windows10/Desktop/projeto_v3/div_clock.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Windows10/Desktop/projeto_v3/div_clock.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/projeto_v3/div_clock.sv|
+!i113 1
+R6
+R7
+vmaquina_refrigerante
+R0
+R1
+!i10b 1
+!s100 XS:XkSN3P1e[n>B0S]JI<3
+Ih@6lo>U@LnGiYkQKM?K<M0
+R2
+!s105 maquina_refrigerante_sv_unit
+S1
+R3
+w1749134764
+8C:/Users/Windows10/Desktop/projeto_v3/maquina_refrigerante.sv
+FC:/Users/Windows10/Desktop/projeto_v3/maquina_refrigerante.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Windows10/Desktop/projeto_v3/maquina_refrigerante.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/projeto_v3/maquina_refrigerante.sv|
+!i113 1
+R6
+R7
+vprojeto
+R0
+R1
+!i10b 1
+!s100 e0Z>950Ge5T0iB^b_PUA61
+IHh6m<Io@PlfRhQI6meRPd0
+R2
+!s105 projeto_sv_unit
+S1
+R3
+w1749134768
+8C:/Users/Windows10/Desktop/projeto_v3/projeto.sv
+FC:/Users/Windows10/Desktop/projeto_v3/projeto.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Windows10/Desktop/projeto_v3/projeto.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/projeto_v3/projeto.sv|
+!i113 1
+R6
+R7
+vprojeto_tb
+R0
+Z8 !s110 1749134788
+!i10b 1
+!s100 `Z1`2_VN;5gdW[P1VjE0N2
+I^B=I9kT_HRXQPFiF=j>MA0
+R2
+!s105 projeto_tb_sv_unit
+S1
+R3
+w1749134766
+8C:/Users/Windows10/Desktop/projeto_v3/projeto_tb.sv
+FC:/Users/Windows10/Desktop/projeto_v3/projeto_tb.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Windows10/Desktop/projeto_v3/projeto_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/projeto_v3/projeto_tb.sv|
+!i113 1
+R6
+R7
+vsomador
+R0
+R8
+!i10b 1
+!s100 f?6QcRUF^oIT1AUAEQjiH0
+I5;8CbUhfhDUkRXdO:@C?b0
+R2
+!s105 somador_sv_unit
+S1
+R3
+w1749091319
+8C:/Users/Windows10/Desktop/projeto_v3/somador.sv
+FC:/Users/Windows10/Desktop/projeto_v3/somador.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1749134788.000000
+!s107 C:/Users/Windows10/Desktop/projeto_v3/somador.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/projeto_v3/somador.sv|
+!i113 1
+R6
+R7
